@@ -9177,6 +9177,7 @@
 	)
 	(label "LED_HRTB"
 		(at 87.63 134.62 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9198,6 +9199,7 @@
 	)
 	(label "LED_HRTB"
 		(at 151.13 49.53 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -11163,7 +11165,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-89-3"
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-223-3_TabPin2"
 			(at 36.83 138.43 0)
 			(effects
 				(font
