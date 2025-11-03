@@ -9773,16 +9773,6 @@
 	)
 	(wire
 		(pts
-			(xy 22.86 176.53) (xy 22.86 177.8)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "56c12d40-9807-458b-8ccf-b6dc44f569fa")
-	)
-	(wire
-		(pts
 			(xy 25.4 146.05) (xy 22.86 146.05)
 		)
 		(stroke
@@ -9963,7 +9953,7 @@
 	)
 	(wire
 		(pts
-			(xy 22.86 185.42) (xy 22.86 186.69)
+			(xy 22.86 184.15) (xy 22.86 186.69)
 		)
 		(stroke
 			(width 0)
@@ -14060,7 +14050,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "0068ff40-b0c5-435c-98f8-b3bc4ee88bc1")
-		(property "Reference" "#PWR012"
+		(property "Reference" "#PWR039"
 			(at 107.95 215.9 0)
 			(effects
 				(font
@@ -14110,7 +14100,7 @@
 		(instances
 			(project "expander-hw"
 				(path "/a3663717-3320-48fd-b38c-5475886dd95b"
-					(reference "#PWR012")
+					(reference "#PWR039")
 					(unit 1)
 				)
 			)
@@ -14125,7 +14115,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "031d2114-88d2-4415-9756-784678a89a6d")
-		(property "Reference" "#PWR041"
+		(property "Reference" "#PWR018"
 			(at 382.27 86.36 0)
 			(effects
 				(font
@@ -14175,7 +14165,7 @@
 		(instances
 			(project "expander-hw"
 				(path "/a3663717-3320-48fd-b38c-5475886dd95b"
-					(reference "#PWR041")
+					(reference "#PWR018")
 					(unit 1)
 				)
 			)
@@ -14190,7 +14180,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "0445e81d-e693-4303-8f8c-b236ff1ade68")
-		(property "Reference" "R27"
+		(property "Reference" "R13"
 			(at 319.786 101.854 90)
 			(effects
 				(font
@@ -14244,7 +14234,7 @@
 		(instances
 			(project "expander-hw"
 				(path "/a3663717-3320-48fd-b38c-5475886dd95b"
-					(reference "R27")
+					(reference "R13")
 					(unit 1)
 				)
 			)
@@ -14259,7 +14249,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "065643ef-1808-4024-b3e9-c95e32cb7ecb")
-		(property "Reference" "#PWR031"
+		(property "Reference" "#PWR034"
 			(at 298.45 170.18 0)
 			(effects
 				(font
@@ -14309,7 +14299,7 @@
 		(instances
 			(project "expander-hw"
 				(path "/a3663717-3320-48fd-b38c-5475886dd95b"
-					(reference "#PWR031")
+					(reference "#PWR034")
 					(unit 1)
 				)
 			)
@@ -14324,7 +14314,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "067f0dc3-65c1-487f-a391-d7e890a24dc6")
-		(property "Reference" "C1"
+		(property "Reference" "C21"
 			(at 22.86 221.488 0)
 			(effects
 				(font
@@ -14378,7 +14368,7 @@
 		(instances
 			(project "expander-hw"
 				(path "/a3663717-3320-48fd-b38c-5475886dd95b"
-					(reference "C1")
+					(reference "C21")
 					(unit 1)
 				)
 			)
@@ -14488,7 +14478,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0bd73d02-a5da-443f-bf60-c6af9d8ed7fa")
-		(property "Reference" "L3"
+		(property "Reference" "L4"
 			(at 35.56 191.77 90)
 			(effects
 				(font
@@ -14540,7 +14530,7 @@
 		(instances
 			(project ""
 				(path "/a3663717-3320-48fd-b38c-5475886dd95b"
-					(reference "L3")
+					(reference "L4")
 					(unit 1)
 				)
 			)
@@ -14555,7 +14545,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "0cc8d1b6-13bc-487d-8f62-355acb30aff6")
-		(property "Reference" "R5"
+		(property "Reference" "R32"
 			(at 84.074 200.66 0)
 			(effects
 				(font
@@ -14609,7 +14599,7 @@
 		(instances
 			(project "expander-hw"
 				(path "/a3663717-3320-48fd-b38c-5475886dd95b"
-					(reference "R5")
+					(reference "R32")
 					(unit 1)
 				)
 			)
@@ -14624,7 +14614,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "0e948aa3-4497-4ae0-b548-9344bc71f601")
-		(property "Reference" "#PWR023"
+		(property "Reference" "#PWR013"
 			(at 242.57 69.85 0)
 			(effects
 				(font
@@ -14674,7 +14664,7 @@
 		(instances
 			(project "expander-hw"
 				(path "/a3663717-3320-48fd-b38c-5475886dd95b"
-					(reference "#PWR023")
+					(reference "#PWR013")
 					(unit 1)
 				)
 			)
@@ -14689,7 +14679,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "1042293c-f7ad-4910-acdc-309c8a4e3bd7")
-		(property "Reference" "R26"
+		(property "Reference" "R27"
 			(at 318.516 152.654 90)
 			(effects
 				(font
@@ -14743,7 +14733,7 @@
 		(instances
 			(project "expander-hw"
 				(path "/a3663717-3320-48fd-b38c-5475886dd95b"
-					(reference "R26")
+					(reference "R27")
 					(unit 1)
 				)
 			)
@@ -14758,7 +14748,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "1444eea3-d7c2-4bc0-acde-3410586a1c8b")
-		(property "Reference" "C4"
+		(property "Reference" "C23"
 			(at 38.1 221.488 0)
 			(effects
 				(font
@@ -14812,7 +14802,7 @@
 		(instances
 			(project "expander-hw"
 				(path "/a3663717-3320-48fd-b38c-5475886dd95b"
-					(reference "C4")
+					(reference "C23")
 					(unit 1)
 				)
 			)
@@ -14894,7 +14884,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "169e7b32-ba20-406a-889a-8d845a9aabdc")
-		(property "Reference" "R3"
+		(property "Reference" "R15"
 			(at 51.816 107.95 0)
 			(effects
 				(font
@@ -14948,7 +14938,7 @@
 		(instances
 			(project "expander-hw"
 				(path "/a3663717-3320-48fd-b38c-5475886dd95b"
-					(reference "R3")
+					(reference "R15")
 					(unit 1)
 				)
 			)
@@ -14964,7 +14954,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "187130bf-d87e-41a4-9e9b-85744ac0e0aa")
-		(property "Reference" "U7"
+		(property "Reference" "U5"
 			(at 387.35 92.7099 0)
 			(effects
 				(font
@@ -15036,7 +15026,7 @@
 		(instances
 			(project ""
 				(path "/a3663717-3320-48fd-b38c-5475886dd95b"
-					(reference "U7")
+					(reference "U5")
 					(unit 3)
 				)
 			)
@@ -15051,7 +15041,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "1a5766d6-de37-4051-8aaf-7cf816839008")
-		(property "Reference" "R23"
+		(property "Reference" "R18"
 			(at 318.516 120.904 90)
 			(effects
 				(font
@@ -15105,7 +15095,7 @@
 		(instances
 			(project "expander-hw"
 				(path "/a3663717-3320-48fd-b38c-5475886dd95b"
-					(reference "R23")
+					(reference "R18")
 					(unit 1)
 				)
 			)
@@ -15121,7 +15111,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1ca04533-89e5-4a7f-8e99-ff6acfe005bb")
-		(property "Reference" "L2"
+		(property "Reference" "L1"
 			(at 29.21 140.97 90)
 			(effects
 				(font
@@ -15173,7 +15163,7 @@
 		(instances
 			(project "expander-hw"
 				(path "/a3663717-3320-48fd-b38c-5475886dd95b"
-					(reference "L2")
+					(reference "L1")
 					(unit 1)
 				)
 			)
@@ -15188,7 +15178,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "2051b956-d130-4556-95e1-36e534b383ef")
-		(property "Reference" "R16"
+		(property "Reference" "R11"
 			(at 253.746 78.74 0)
 			(effects
 				(font
@@ -15242,7 +15232,7 @@
 		(instances
 			(project "expander-hw"
 				(path "/a3663717-3320-48fd-b38c-5475886dd95b"
-					(reference "R16")
+					(reference "R11")
 					(unit 1)
 				)
 			)
@@ -15257,7 +15247,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "244276d4-580e-404c-8dbc-138ba68048da")
-		(property "Reference" "R30"
+		(property "Reference" "R4"
 			(at 339.598 55.118 90)
 			(effects
 				(font
@@ -15311,7 +15301,7 @@
 		(instances
 			(project "expander-hw"
 				(path "/a3663717-3320-48fd-b38c-5475886dd95b"
-					(reference "R30")
+					(reference "R4")
 					(unit 1)
 				)
 			)
@@ -15326,7 +15316,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "284a7731-80e5-4811-8012-abeb5fd497c0")
-		(property "Reference" "#PWR032"
+		(property "Reference" "#PWR017"
 			(at 299.72 83.82 0)
 			(effects
 				(font
@@ -15376,7 +15366,7 @@
 		(instances
 			(project "expander-hw"
 				(path "/a3663717-3320-48fd-b38c-5475886dd95b"
-					(reference "#PWR032")
+					(reference "#PWR017")
 					(unit 1)
 				)
 			)
@@ -15391,7 +15381,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "2b51c260-ec0d-4aec-8fa2-163043450d07")
-		(property "Reference" "C9"
+		(property "Reference" "C11"
 			(at 77.47 152.908 0)
 			(effects
 				(font
@@ -15445,7 +15435,7 @@
 		(instances
 			(project "expander-hw"
 				(path "/a3663717-3320-48fd-b38c-5475886dd95b"
-					(reference "C9")
+					(reference "C11")
 					(unit 1)
 				)
 			)
@@ -15460,7 +15450,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "2b922221-527c-4278-b68a-93892c84ab8a")
-		(property "Reference" "R31"
+		(property "Reference" "R5"
 			(at 339.598 65.278 90)
 			(effects
 				(font
@@ -15514,7 +15504,7 @@
 		(instances
 			(project "expander-hw"
 				(path "/a3663717-3320-48fd-b38c-5475886dd95b"
-					(reference "R31")
+					(reference "R5")
 					(unit 1)
 				)
 			)
@@ -15529,7 +15519,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "2bc6a6ad-bcb9-4c45-91ba-423533a14cc2")
-		(property "Reference" "#PWR042"
+		(property "Reference" "#PWR023"
 			(at 382.27 101.6 0)
 			(effects
 				(font
@@ -15579,7 +15569,7 @@
 		(instances
 			(project "expander-hw"
 				(path "/a3663717-3320-48fd-b38c-5475886dd95b"
-					(reference "#PWR042")
+					(reference "#PWR023")
 					(unit 1)
 				)
 			)
@@ -15594,7 +15584,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "2bd0f932-1d83-49a9-9251-883a3c9804d8")
-		(property "Reference" "C12"
+		(property "Reference" "C6"
 			(at 90.17 114.808 0)
 			(effects
 				(font
@@ -15648,7 +15638,7 @@
 		(instances
 			(project "expander-hw"
 				(path "/a3663717-3320-48fd-b38c-5475886dd95b"
-					(reference "C12")
+					(reference "C6")
 					(unit 1)
 				)
 			)
@@ -15663,7 +15653,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "2cf94b49-29fb-4ede-ab1d-fc9473aad089")
-		(property "Reference" "R17"
+		(property "Reference" "R21"
 			(at 303.53 127 0)
 			(effects
 				(font
@@ -15717,7 +15707,7 @@
 		(instances
 			(project "expander-hw"
 				(path "/a3663717-3320-48fd-b38c-5475886dd95b"
-					(reference "R17")
+					(reference "R21")
 					(unit 1)
 				)
 			)
@@ -15732,7 +15722,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "2df75527-0e96-48c5-91f2-225755a2b997")
-		(property "Reference" "#PWR036"
+		(property "Reference" "#PWR020"
 			(at 318.77 96.52 0)
 			(effects
 				(font
@@ -15782,7 +15772,7 @@
 		(instances
 			(project "expander-hw"
 				(path "/a3663717-3320-48fd-b38c-5475886dd95b"
-					(reference "#PWR036")
+					(reference "#PWR020")
 					(unit 1)
 				)
 			)
@@ -15797,7 +15787,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "2e714e7f-f6a9-401e-9df2-274874b6bfa2")
-		(property "Reference" "D2"
+		(property "Reference" "D3"
 			(at 93.98 214.63 0)
 			(effects
 				(font
@@ -15852,7 +15842,7 @@
 		(instances
 			(project "expander-hw"
 				(path "/a3663717-3320-48fd-b38c-5475886dd95b"
-					(reference "D2")
+					(reference "D3")
 					(unit 1)
 				)
 			)
@@ -15867,7 +15857,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "3172dcbd-4a2f-4246-bff3-e7fc91f6c694")
-		(property "Reference" "R21"
+		(property "Reference" "R6"
 			(at 323.342 70.358 90)
 			(effects
 				(font
@@ -15921,7 +15911,7 @@
 		(instances
 			(project "expander-hw"
 				(path "/a3663717-3320-48fd-b38c-5475886dd95b"
-					(reference "R21")
+					(reference "R6")
 					(unit 1)
 				)
 			)
@@ -15936,7 +15926,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "335232b3-efff-49a2-a833-65fbce06cdc5")
-		(property "Reference" "R9"
+		(property "Reference" "R30"
 			(at 139.7 187.96 0)
 			(effects
 				(font
@@ -15990,7 +15980,7 @@
 		(instances
 			(project "expander-hw"
 				(path "/a3663717-3320-48fd-b38c-5475886dd95b"
-					(reference "R9")
+					(reference "R30")
 					(unit 1)
 				)
 			)
@@ -16006,7 +15996,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "33b7ad45-a0e6-455f-9509-08ad6fa991fd")
-		(property "Reference" "L1"
+		(property "Reference" "L3"
 			(at 24.13 189.2299 0)
 			(effects
 				(font
@@ -16060,7 +16050,7 @@
 		(instances
 			(project "expander-hw"
 				(path "/a3663717-3320-48fd-b38c-5475886dd95b"
-					(reference "L1")
+					(reference "L3")
 					(unit 1)
 				)
 			)
@@ -16144,7 +16134,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "35edc217-7a69-4b4c-82ad-0290da39687b")
-		(property "Reference" "#PWR028"
+		(property "Reference" "#PWR08"
 			(at 283.21 45.72 0)
 			(effects
 				(font
@@ -16194,7 +16184,7 @@
 		(instances
 			(project "expander-hw"
 				(path "/a3663717-3320-48fd-b38c-5475886dd95b"
-					(reference "#PWR028")
+					(reference "#PWR08")
 					(unit 1)
 				)
 			)
@@ -16209,7 +16199,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "37d5e0c5-8807-41b9-9c83-2d89c4e41f62")
-		(property "Reference" "C14"
+		(property "Reference" "C18"
 			(at 91.186 203.2 90)
 			(effects
 				(font
@@ -16263,7 +16253,7 @@
 		(instances
 			(project "expander-hw"
 				(path "/a3663717-3320-48fd-b38c-5475886dd95b"
-					(reference "C14")
+					(reference "C18")
 					(unit 1)
 				)
 			)
@@ -16278,7 +16268,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "3a7dc86d-f761-4030-ac8f-0915a8d30873")
-		(property "Reference" "#PWR039"
+		(property "Reference" "#PWR010"
 			(at 382.27 50.8 0)
 			(effects
 				(font
@@ -16328,7 +16318,7 @@
 		(instances
 			(project "expander-hw"
 				(path "/a3663717-3320-48fd-b38c-5475886dd95b"
-					(reference "#PWR039")
+					(reference "#PWR010")
 					(unit 1)
 				)
 			)
@@ -16343,7 +16333,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "3b983c2c-e018-4524-ba8a-5fa786e909ec")
-		(property "Reference" "#PWR09"
+		(property "Reference" "#PWR011"
 			(at 67.31 66.04 0)
 			(effects
 				(font
@@ -16393,7 +16383,7 @@
 		(instances
 			(project "expander-hw"
 				(path "/a3663717-3320-48fd-b38c-5475886dd95b"
-					(reference "#PWR09")
+					(reference "#PWR011")
 					(unit 1)
 				)
 			)
@@ -16408,7 +16398,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "3f92e79c-af7d-4445-b640-9acf255908c3")
-		(property "Reference" "#PWR013"
+		(property "Reference" "#PWR07"
 			(at 123.19 35.56 0)
 			(effects
 				(font
@@ -16458,7 +16448,7 @@
 		(instances
 			(project "expander-hw"
 				(path "/a3663717-3320-48fd-b38c-5475886dd95b"
-					(reference "#PWR013")
+					(reference "#PWR07")
 					(unit 1)
 				)
 			)
@@ -16473,7 +16463,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "425509cc-024f-41f4-bd86-1d9b8300e554")
-		(property "Reference" "#PWR07"
+		(property "Reference" "#PWR025"
 			(at 57.15 124.46 0)
 			(effects
 				(font
@@ -16523,7 +16513,7 @@
 		(instances
 			(project "expander-hw"
 				(path "/a3663717-3320-48fd-b38c-5475886dd95b"
-					(reference "#PWR07")
+					(reference "#PWR025")
 					(unit 1)
 				)
 			)
@@ -16538,7 +16528,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "43e92eb2-fae6-4656-b521-c0d7569ada8c")
-		(property "Reference" "#PWR010"
+		(property "Reference" "#PWR032"
 			(at 92.71 148.59 0)
 			(effects
 				(font
@@ -16588,7 +16578,7 @@
 		(instances
 			(project "expander-hw"
 				(path "/a3663717-3320-48fd-b38c-5475886dd95b"
-					(reference "#PWR010")
+					(reference "#PWR032")
 					(unit 1)
 				)
 			)
@@ -16603,7 +16593,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "4768da93-efa3-4ec0-b5c5-e8c65797c332")
-		(property "Reference" "R19"
+		(property "Reference" "R2"
 			(at 323.342 42.418 90)
 			(effects
 				(font
@@ -16657,7 +16647,7 @@
 		(instances
 			(project "expander-hw"
 				(path "/a3663717-3320-48fd-b38c-5475886dd95b"
-					(reference "R19")
+					(reference "R2")
 					(unit 1)
 				)
 			)
@@ -16672,7 +16662,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "4846165a-ddf7-4610-aea4-6c7a73e2dbb2")
-		(property "Reference" "#PWR08"
+		(property "Reference" "#PWR042"
 			(at 58.42 246.38 0)
 			(effects
 				(font
@@ -16722,7 +16712,7 @@
 		(instances
 			(project "expander-hw"
 				(path "/a3663717-3320-48fd-b38c-5475886dd95b"
-					(reference "#PWR08")
+					(reference "#PWR042")
 					(unit 1)
 				)
 			)
@@ -16737,7 +16727,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "494714f5-11a8-4e8a-91a1-b2383fdcda83")
-		(property "Reference" "C7"
+		(property "Reference" "C10"
 			(at 69.85 152.908 0)
 			(effects
 				(font
@@ -16791,7 +16781,7 @@
 		(instances
 			(project "expander-hw"
 				(path "/a3663717-3320-48fd-b38c-5475886dd95b"
-					(reference "C7")
+					(reference "C10")
 					(unit 1)
 				)
 			)
@@ -16807,7 +16797,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4949c63a-cf13-4b7b-ba36-dde1f08cf9de")
-		(property "Reference" "L5"
+		(property "Reference" "L2"
 			(at 128.27 179.07 90)
 			(effects
 				(font
@@ -16859,7 +16849,7 @@
 		(instances
 			(project "expander-hw"
 				(path "/a3663717-3320-48fd-b38c-5475886dd95b"
-					(reference "L5")
+					(reference "L2")
 					(unit 1)
 				)
 			)
@@ -16874,7 +16864,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "4c29c7b0-402f-45ce-b9ad-9946ddbbcfeb")
-		(property "Reference" "C18"
+		(property "Reference" "C15"
 			(at 121.92 187.198 0)
 			(effects
 				(font
@@ -16928,7 +16918,7 @@
 		(instances
 			(project "expander-hw"
 				(path "/a3663717-3320-48fd-b38c-5475886dd95b"
-					(reference "C18")
+					(reference "C15")
 					(unit 1)
 				)
 			)
@@ -16944,7 +16934,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "4ca26588-65f6-46c8-85d3-1fac3ac8eef3")
-		(property "Reference" "U7"
+		(property "Reference" "U5"
 			(at 348.488 144.78 0)
 			(effects
 				(font
@@ -17014,7 +17004,7 @@
 		(instances
 			(project ""
 				(path "/a3663717-3320-48fd-b38c-5475886dd95b"
-					(reference "U7")
+					(reference "U5")
 					(unit 2)
 				)
 			)
@@ -17029,7 +17019,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "4d2a6afd-69a9-4f06-9d5d-f0c5326893b8")
-		(property "Reference" "C20"
+		(property "Reference" "C16"
 			(at 143.51 187.198 0)
 			(effects
 				(font
@@ -17083,7 +17073,7 @@
 		(instances
 			(project "expander-hw"
 				(path "/a3663717-3320-48fd-b38c-5475886dd95b"
-					(reference "C20")
+					(reference "C16")
 					(unit 1)
 				)
 			)
@@ -17099,7 +17089,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4fc61052-86b9-4145-b024-ee91c7a1210a")
-		(property "Reference" "L4"
+		(property "Reference" "L6"
 			(at 87.63 229.8699 0)
 			(effects
 				(font
@@ -17153,7 +17143,7 @@
 		(instances
 			(project "expander-hw"
 				(path "/a3663717-3320-48fd-b38c-5475886dd95b"
-					(reference "L4")
+					(reference "L6")
 					(unit 1)
 				)
 			)
@@ -17168,7 +17158,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "50c36a64-03cf-4d5c-a1c8-3ca84b6019a7")
-		(property "Reference" "#PWR024"
+		(property "Reference" "#PWR021"
 			(at 248.92 106.68 0)
 			(effects
 				(font
@@ -17218,7 +17208,7 @@
 		(instances
 			(project "expander-hw"
 				(path "/a3663717-3320-48fd-b38c-5475886dd95b"
-					(reference "#PWR024")
+					(reference "#PWR021")
 					(unit 1)
 				)
 			)
@@ -17234,7 +17224,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5163e9fe-4bc0-47d2-9c07-ce45430a4de5")
-		(property "Reference" "U1"
+		(property "Reference" "U6"
 			(at 49.53 139.7 0)
 			(effects
 				(font
@@ -17290,7 +17280,7 @@
 		(instances
 			(project "expander-hw"
 				(path "/a3663717-3320-48fd-b38c-5475886dd95b"
-					(reference "U1")
+					(reference "U6")
 					(unit 1)
 				)
 			)
@@ -17305,7 +17295,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "519b381d-4471-496f-b6eb-069dbc43e2fb")
-		(property "Reference" "R22"
+		(property "Reference" "R7"
 			(at 323.342 75.438 90)
 			(effects
 				(font
@@ -17359,7 +17349,7 @@
 		(instances
 			(project "expander-hw"
 				(path "/a3663717-3320-48fd-b38c-5475886dd95b"
-					(reference "R22")
+					(reference "R7")
 					(unit 1)
 				)
 			)
@@ -17374,7 +17364,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "5209a0de-73df-429c-bd86-7b3c79005949")
-		(property "Reference" "C11"
+		(property "Reference" "C12"
 			(at 85.09 152.908 0)
 			(effects
 				(font
@@ -17428,7 +17418,7 @@
 		(instances
 			(project "expander-hw"
 				(path "/a3663717-3320-48fd-b38c-5475886dd95b"
-					(reference "C11")
+					(reference "C12")
 					(unit 1)
 				)
 			)
@@ -17443,7 +17433,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "52f85b41-2b21-4273-9e1f-fdaa6912ef83")
-		(property "Reference" "#PWR029"
+		(property "Reference" "#PWR02"
 			(at 293.37 31.75 0)
 			(effects
 				(font
@@ -17493,7 +17483,7 @@
 		(instances
 			(project "expander-hw"
 				(path "/a3663717-3320-48fd-b38c-5475886dd95b"
-					(reference "#PWR029")
+					(reference "#PWR02")
 					(unit 1)
 				)
 			)
@@ -17508,7 +17498,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "537497a4-0fb3-4487-9108-be50b6c315f7")
-		(property "Reference" "R6"
+		(property "Reference" "R34"
 			(at 85.598 208.28 90)
 			(effects
 				(font
@@ -17562,7 +17552,7 @@
 		(instances
 			(project "expander-hw"
 				(path "/a3663717-3320-48fd-b38c-5475886dd95b"
-					(reference "R6")
+					(reference "R34")
 					(unit 1)
 				)
 			)
@@ -17577,7 +17567,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "542df801-bb2a-4280-a759-d4ad4ab47c08")
-		(property "Reference" "#PWR035"
+		(property "Reference" "#PWR029"
 			(at 317.5 139.7 0)
 			(effects
 				(font
@@ -17627,7 +17617,7 @@
 		(instances
 			(project "expander-hw"
 				(path "/a3663717-3320-48fd-b38c-5475886dd95b"
-					(reference "#PWR035")
+					(reference "#PWR029")
 					(unit 1)
 				)
 			)
@@ -17642,7 +17632,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "5640139e-b288-4ec0-a795-664bb3d32126")
-		(property "Reference" "R34"
+		(property "Reference" "R19"
 			(at 337.566 120.904 90)
 			(effects
 				(font
@@ -17696,7 +17686,7 @@
 		(instances
 			(project "expander-hw"
 				(path "/a3663717-3320-48fd-b38c-5475886dd95b"
-					(reference "R34")
+					(reference "R19")
 					(unit 1)
 				)
 			)
@@ -17711,7 +17701,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "58233097-8f48-4bc3-b716-ab393511312f")
-		(property "Reference" "#PWR01"
+		(property "Reference" "#PWR026"
 			(at 22.86 129.54 0)
 			(effects
 				(font
@@ -17761,7 +17751,7 @@
 		(instances
 			(project "expander-hw"
 				(path "/a3663717-3320-48fd-b38c-5475886dd95b"
-					(reference "#PWR01")
+					(reference "#PWR026")
 					(unit 1)
 				)
 			)
@@ -17776,7 +17766,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "5b21202c-f320-4934-85ea-933d82f09ede")
-		(property "Reference" "#PWR021"
+		(property "Reference" "#PWR024"
 			(at 231.14 121.92 0)
 			(effects
 				(font
@@ -17826,7 +17816,7 @@
 		(instances
 			(project "expander-hw"
 				(path "/a3663717-3320-48fd-b38c-5475886dd95b"
-					(reference "#PWR021")
+					(reference "#PWR024")
 					(unit 1)
 				)
 			)
@@ -17841,7 +17831,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "5cdaac59-3f47-43b9-840a-06cd550601b6")
-		(property "Reference" "C23"
+		(property "Reference" "C4"
 			(at 318.77 83.058 0)
 			(effects
 				(font
@@ -17895,7 +17885,7 @@
 		(instances
 			(project "expander-hw"
 				(path "/a3663717-3320-48fd-b38c-5475886dd95b"
-					(reference "C23")
+					(reference "C4")
 					(unit 1)
 				)
 			)
@@ -17910,7 +17900,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "5cefac0d-20d5-41e6-9073-34df1b995671")
-		(property "Reference" "R15"
+		(property "Reference" "R10"
 			(at 247.396 78.74 0)
 			(effects
 				(font
@@ -17964,7 +17954,7 @@
 		(instances
 			(project "expander-hw"
 				(path "/a3663717-3320-48fd-b38c-5475886dd95b"
-					(reference "R15")
+					(reference "R10")
 					(unit 1)
 				)
 			)
@@ -17979,7 +17969,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "5e4d4e67-1ef0-4251-b482-b503b117c023")
-		(property "Reference" "#PWR04"
+		(property "Reference" "#PWR01"
 			(at 48.26 25.4 0)
 			(effects
 				(font
@@ -18029,7 +18019,7 @@
 		(instances
 			(project "expander-hw"
 				(path "/a3663717-3320-48fd-b38c-5475886dd95b"
-					(reference "#PWR04")
+					(reference "#PWR01")
 					(unit 1)
 				)
 			)
@@ -18044,7 +18034,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "5fe5500f-b3a8-4323-b252-be954ff880f4")
-		(property "Reference" "R2"
+		(property "Reference" "R33"
 			(at 29.972 211.836 90)
 			(effects
 				(font
@@ -18098,7 +18088,7 @@
 		(instances
 			(project "expander-hw"
 				(path "/a3663717-3320-48fd-b38c-5475886dd95b"
-					(reference "R2")
+					(reference "R33")
 					(unit 1)
 				)
 			)
@@ -18113,7 +18103,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "61da6d6b-a8d0-48e5-8fc3-effa595d359d")
-		(property "Reference" "R29"
+		(property "Reference" "R1"
 			(at 339.852 37.338 90)
 			(effects
 				(font
@@ -18167,7 +18157,7 @@
 		(instances
 			(project "expander-hw"
 				(path "/a3663717-3320-48fd-b38c-5475886dd95b"
-					(reference "R29")
+					(reference "R1")
 					(unit 1)
 				)
 			)
@@ -18182,7 +18172,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "633fe09e-c9d0-4e2e-bb4f-710f43433cc2")
-		(property "Reference" "C25"
+		(property "Reference" "C5"
 			(at 378.46 91.948 0)
 			(effects
 				(font
@@ -18236,7 +18226,7 @@
 		(instances
 			(project "expander-hw"
 				(path "/a3663717-3320-48fd-b38c-5475886dd95b"
-					(reference "C25")
+					(reference "C5")
 					(unit 1)
 				)
 			)
@@ -18251,7 +18241,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "639c2211-e90a-4424-8c38-85aefbeb4998")
-		(property "Reference" "C22"
+		(property "Reference" "C1"
 			(at 283.21 32.258 0)
 			(effects
 				(font
@@ -18305,7 +18295,7 @@
 		(instances
 			(project "expander-hw"
 				(path "/a3663717-3320-48fd-b38c-5475886dd95b"
-					(reference "C22")
+					(reference "C1")
 					(unit 1)
 				)
 			)
@@ -18320,7 +18310,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "666ed9b9-71f1-4139-9cf9-2d0582412ec9")
-		(property "Reference" "C15"
+		(property "Reference" "C7"
 			(at 96.52 114.808 0)
 			(effects
 				(font
@@ -18374,7 +18364,7 @@
 		(instances
 			(project "expander-hw"
 				(path "/a3663717-3320-48fd-b38c-5475886dd95b"
-					(reference "C15")
+					(reference "C7")
 					(unit 1)
 				)
 			)
@@ -18389,7 +18379,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "6919663a-39e4-4477-944a-100674bb25ba")
-		(property "Reference" "#PWR02"
+		(property "Reference" "#PWR031"
 			(at 22.86 147.32 0)
 			(effects
 				(font
@@ -18439,7 +18429,7 @@
 		(instances
 			(project "expander-hw"
 				(path "/a3663717-3320-48fd-b38c-5475886dd95b"
-					(reference "#PWR02")
+					(reference "#PWR031")
 					(unit 1)
 				)
 			)
@@ -18454,7 +18444,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "6af11293-17eb-4d86-9e78-c976e2660dee")
-		(property "Reference" "R10"
+		(property "Reference" "R35"
 			(at 139.7 220.98 0)
 			(effects
 				(font
@@ -18508,76 +18498,7 @@
 		(instances
 			(project "expander-hw"
 				(path "/a3663717-3320-48fd-b38c-5475886dd95b"
-					(reference "R10")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 22.86 181.61 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "7138f5f7-fd85-4f83-97e4-9766712b947b")
-		(property "Reference" "R1"
-			(at 24.384 180.594 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "10"
-			(at 24.638 182.626 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
-			(at 21.082 181.61 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 22.86 181.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 22.86 181.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "ada8cf10-0a49-4e0f-a318-90132ce43140")
-		)
-		(pin "2"
-			(uuid "b96d9599-a03e-43b6-8808-6c19a3ca22d3")
-		)
-		(instances
-			(project "expander-hw"
-				(path "/a3663717-3320-48fd-b38c-5475886dd95b"
-					(reference "R1")
+					(reference "R35")
 					(unit 1)
 				)
 			)
@@ -18661,7 +18582,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "7ac774ec-60c0-41d6-90e3-29d4f35b941d")
-		(property "Reference" "#PWR017"
+		(property "Reference" "#PWR036"
 			(at 143.51 186.69 0)
 			(effects
 				(font
@@ -18711,7 +18632,7 @@
 		(instances
 			(project "expander-hw"
 				(path "/a3663717-3320-48fd-b38c-5475886dd95b"
-					(reference "#PWR017")
+					(reference "#PWR036")
 					(unit 1)
 				)
 			)
@@ -18719,15 +18640,15 @@
 	)
 	(symbol
 		(lib_id "power:VBUS")
-		(at 22.86 176.53 0)
+		(at 22.86 184.15 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(uuid "7beed197-4261-485a-8593-b2e677c1c4db")
-		(property "Reference" "#PWR03"
-			(at 22.86 180.34 0)
+		(property "Reference" "#PWR037"
+			(at 22.86 187.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18736,7 +18657,7 @@
 			)
 		)
 		(property "Value" "VBUS"
-			(at 22.86 172.72 0)
+			(at 22.86 180.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18744,7 +18665,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 22.86 176.53 0)
+			(at 22.86 184.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18753,7 +18674,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 22.86 176.53 0)
+			(at 22.86 184.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18762,7 +18683,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"VBUS\""
-			(at 22.86 176.53 0)
+			(at 22.86 184.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18776,7 +18697,7 @@
 		(instances
 			(project "expander-hw"
 				(path "/a3663717-3320-48fd-b38c-5475886dd95b"
-					(reference "#PWR03")
+					(reference "#PWR037")
 					(unit 1)
 				)
 			)
@@ -18791,7 +18712,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "7c81e646-fba8-4d4c-8e3b-c0fc8505018d")
-		(property "Reference" "#PWR014"
+		(property "Reference" "#PWR028"
 			(at 124.46 137.16 0)
 			(effects
 				(font
@@ -18841,7 +18762,7 @@
 		(instances
 			(project "expander-hw"
 				(path "/a3663717-3320-48fd-b38c-5475886dd95b"
-					(reference "#PWR014")
+					(reference "#PWR028")
 					(unit 1)
 				)
 			)
@@ -18856,7 +18777,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "7e8f7b9b-1503-43c3-aed6-cd3a89c14ae7")
-		(property "Reference" "#PWR040"
+		(property "Reference" "#PWR014"
 			(at 382.27 66.04 0)
 			(effects
 				(font
@@ -18906,7 +18827,7 @@
 		(instances
 			(project "expander-hw"
 				(path "/a3663717-3320-48fd-b38c-5475886dd95b"
-					(reference "#PWR040")
+					(reference "#PWR014")
 					(unit 1)
 				)
 			)
@@ -18922,7 +18843,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "7ff734b0-25c8-46b8-8272-820cb8d5193a")
-		(property "Reference" "U6"
+		(property "Reference" "U2"
 			(at 349.25 43.942 0)
 			(effects
 				(font
@@ -18992,7 +18913,7 @@
 		(instances
 			(project ""
 				(path "/a3663717-3320-48fd-b38c-5475886dd95b"
-					(reference "U6")
+					(reference "U2")
 					(unit 2)
 				)
 			)
@@ -19007,7 +18928,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "818b3fd7-24f0-4276-bb61-37e3d8796c30")
-		(property "Reference" "J4"
+		(property "Reference" "J3"
 			(at 242.57 46.99 0)
 			(effects
 				(font
@@ -19078,7 +18999,7 @@
 		(instances
 			(project ""
 				(path "/a3663717-3320-48fd-b38c-5475886dd95b"
-					(reference "J4")
+					(reference "J3")
 					(unit 1)
 				)
 			)
@@ -19093,7 +19014,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "87216d26-51e9-4fce-a487-099bf714a063")
-		(property "Reference" "#PWR018"
+		(property "Reference" "#PWR040"
 			(at 143.51 219.71 0)
 			(effects
 				(font
@@ -19143,7 +19064,7 @@
 		(instances
 			(project "expander-hw"
 				(path "/a3663717-3320-48fd-b38c-5475886dd95b"
-					(reference "#PWR018")
+					(reference "#PWR040")
 					(unit 1)
 				)
 			)
@@ -19158,7 +19079,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "88bd6af6-b498-4fbb-85d4-e9040ac3ef33")
-		(property "Reference" "#PWR020"
+		(property "Reference" "#PWR04"
 			(at 231.14 33.02 0)
 			(effects
 				(font
@@ -19208,7 +19129,7 @@
 		(instances
 			(project "expander-hw"
 				(path "/a3663717-3320-48fd-b38c-5475886dd95b"
-					(reference "#PWR020")
+					(reference "#PWR04")
 					(unit 1)
 				)
 			)
@@ -19223,7 +19144,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "897a2876-ef78-41d7-ae47-f9f093e8a125")
-		(property "Reference" "R18"
+		(property "Reference" "R28"
 			(at 303.53 156.21 0)
 			(effects
 				(font
@@ -19277,7 +19198,7 @@
 		(instances
 			(project "expander-hw"
 				(path "/a3663717-3320-48fd-b38c-5475886dd95b"
-					(reference "R18")
+					(reference "R28")
 					(unit 1)
 				)
 			)
@@ -19292,7 +19213,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "8d1dda1a-3e01-47d4-b66f-767c7646f5bc")
-		(property "Reference" "#PWR06"
+		(property "Reference" "#PWR016"
 			(at 54.61 81.28 0)
 			(effects
 				(font
@@ -19342,7 +19263,7 @@
 		(instances
 			(project "expander-hw"
 				(path "/a3663717-3320-48fd-b38c-5475886dd95b"
-					(reference "#PWR06")
+					(reference "#PWR016")
 					(unit 1)
 				)
 			)
@@ -19358,7 +19279,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8f41b9f8-a09d-411d-9306-7c2804781803")
-		(property "Reference" "U6"
+		(property "Reference" "U2"
 			(at 387.35 57.1499 0)
 			(effects
 				(font
@@ -19430,7 +19351,7 @@
 		(instances
 			(project ""
 				(path "/a3663717-3320-48fd-b38c-5475886dd95b"
-					(reference "U6")
+					(reference "U2")
 					(unit 3)
 				)
 			)
@@ -19445,7 +19366,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "91a9a174-d693-4546-84a8-569a9add1eef")
-		(property "Reference" "R13"
+		(property "Reference" "R8"
 			(at 234.696 78.74 0)
 			(effects
 				(font
@@ -19499,7 +19420,7 @@
 		(instances
 			(project "expander-hw"
 				(path "/a3663717-3320-48fd-b38c-5475886dd95b"
-					(reference "R13")
+					(reference "R8")
 					(unit 1)
 				)
 			)
@@ -19514,7 +19435,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "934b0196-af8e-4d40-812a-5f006628028b")
-		(property "Reference" "R8"
+		(property "Reference" "R31"
 			(at 117.094 198.374 0)
 			(effects
 				(font
@@ -19568,7 +19489,7 @@
 		(instances
 			(project "expander-hw"
 				(path "/a3663717-3320-48fd-b38c-5475886dd95b"
-					(reference "R8")
+					(reference "R31")
 					(unit 1)
 				)
 			)
@@ -19583,7 +19504,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "93555ece-c0f8-4ee9-b02d-542c77506cc6")
-		(property "Reference" "#PWR038"
+		(property "Reference" "#PWR019"
 			(at 347.98 93.98 0)
 			(effects
 				(font
@@ -19633,7 +19554,7 @@
 		(instances
 			(project "expander-hw"
 				(path "/a3663717-3320-48fd-b38c-5475886dd95b"
-					(reference "#PWR038")
+					(reference "#PWR019")
 					(unit 1)
 				)
 			)
@@ -19648,7 +19569,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "93967645-8f6e-4111-87a0-0b6c050be3e7")
-		(property "Reference" "C2"
+		(property "Reference" "C22"
 			(at 30.48 221.488 0)
 			(effects
 				(font
@@ -19702,7 +19623,7 @@
 		(instances
 			(project "expander-hw"
 				(path "/a3663717-3320-48fd-b38c-5475886dd95b"
-					(reference "C2")
+					(reference "C22")
 					(unit 1)
 				)
 			)
@@ -19717,7 +19638,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "95a98016-5943-4e62-9fc4-621a092cb584")
-		(property "Reference" "#PWR026"
+		(property "Reference" "#PWR05"
 			(at 254 33.02 0)
 			(effects
 				(font
@@ -19767,7 +19688,7 @@
 		(instances
 			(project "expander-hw"
 				(path "/a3663717-3320-48fd-b38c-5475886dd95b"
-					(reference "#PWR026")
+					(reference "#PWR05")
 					(unit 1)
 				)
 			)
@@ -19782,7 +19703,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "97c94e14-14d4-4d8a-a1e5-16f1a2cd2ed1")
-		(property "Reference" "C3"
+		(property "Reference" "C8"
 			(at 35.56 152.908 0)
 			(effects
 				(font
@@ -19836,7 +19757,7 @@
 		(instances
 			(project "expander-hw"
 				(path "/a3663717-3320-48fd-b38c-5475886dd95b"
-					(reference "C3")
+					(reference "C8")
 					(unit 1)
 				)
 			)
@@ -19852,7 +19773,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "99b9f809-1202-4986-ad1a-7355df37424f")
-		(property "Reference" "D3"
+		(property "Reference" "D1"
 			(at 234.95 143.8274 90)
 			(effects
 				(font
@@ -19906,7 +19827,7 @@
 		(instances
 			(project "expander-hw"
 				(path "/a3663717-3320-48fd-b38c-5475886dd95b"
-					(reference "D3")
+					(reference "D1")
 					(unit 1)
 				)
 			)
@@ -19921,7 +19842,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "9a84e5a8-b9c7-4a49-affe-13ed834a16c3")
-		(property "Reference" "#PWR016"
+		(property "Reference" "#PWR041"
 			(at 134.62 234.95 0)
 			(effects
 				(font
@@ -19971,7 +19892,7 @@
 		(instances
 			(project "expander-hw"
 				(path "/a3663717-3320-48fd-b38c-5475886dd95b"
-					(reference "#PWR016")
+					(reference "#PWR041")
 					(unit 1)
 				)
 			)
@@ -19987,7 +19908,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9c0211f4-eb37-4645-9a10-c1975d50dbab")
-		(property "Reference" "U3"
+		(property "Reference" "U4"
 			(at 127.9241 125.73 0)
 			(effects
 				(font
@@ -20228,7 +20149,7 @@
 		(instances
 			(project ""
 				(path "/a3663717-3320-48fd-b38c-5475886dd95b"
-					(reference "U3")
+					(reference "U4")
 					(unit 1)
 				)
 			)
@@ -20243,7 +20164,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "9ced8021-5568-49f8-a482-5ecaf5a5fe9e")
-		(property "Reference" "R4"
+		(property "Reference" "R16"
 			(at 58.166 107.95 0)
 			(effects
 				(font
@@ -20297,7 +20218,7 @@
 		(instances
 			(project "expander-hw"
 				(path "/a3663717-3320-48fd-b38c-5475886dd95b"
-					(reference "R4")
+					(reference "R16")
 					(unit 1)
 				)
 			)
@@ -20312,7 +20233,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "a5eb300c-711d-40f4-88e1-7806a7c1b11d")
-		(property "Reference" "R20"
+		(property "Reference" "R3"
 			(at 323.342 47.498 90)
 			(effects
 				(font
@@ -20366,7 +20287,7 @@
 		(instances
 			(project "expander-hw"
 				(path "/a3663717-3320-48fd-b38c-5475886dd95b"
-					(reference "R20")
+					(reference "R3")
 					(unit 1)
 				)
 			)
@@ -20381,7 +20302,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "a6543214-b5a5-4f55-bafd-7260165d0c6b")
-		(property "Reference" "C16"
+		(property "Reference" "C17"
 			(at 104.14 199.898 0)
 			(effects
 				(font
@@ -20435,7 +20356,7 @@
 		(instances
 			(project "expander-hw"
 				(path "/a3663717-3320-48fd-b38c-5475886dd95b"
-					(reference "C16")
+					(reference "C17")
 					(unit 1)
 				)
 			)
@@ -20450,7 +20371,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "a9c37de3-32c6-4f91-9c25-236e603c1081")
-		(property "Reference" "R12"
+		(property "Reference" "R22"
 			(at 232.156 130.81 0)
 			(effects
 				(font
@@ -20504,7 +20425,7 @@
 		(instances
 			(project "expander-hw"
 				(path "/a3663717-3320-48fd-b38c-5475886dd95b"
-					(reference "R12")
+					(reference "R22")
 					(unit 1)
 				)
 			)
@@ -20520,7 +20441,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "aa4c9d99-6928-4b9f-b5f3-c542b54d32c3")
-		(property "Reference" "L6"
+		(property "Reference" "L5"
 			(at 128.27 212.09 90)
 			(effects
 				(font
@@ -20572,7 +20493,7 @@
 		(instances
 			(project "expander-hw"
 				(path "/a3663717-3320-48fd-b38c-5475886dd95b"
-					(reference "L6")
+					(reference "L5")
 					(unit 1)
 				)
 			)
@@ -20587,7 +20508,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "ab99cfb4-0e8e-472b-8ef4-8c91d76fd4e4")
-		(property "Reference" "C21"
+		(property "Reference" "C20"
 			(at 143.51 220.218 0)
 			(effects
 				(font
@@ -20641,7 +20562,7 @@
 		(instances
 			(project "expander-hw"
 				(path "/a3663717-3320-48fd-b38c-5475886dd95b"
-					(reference "C21")
+					(reference "C20")
 					(unit 1)
 				)
 			)
@@ -20721,7 +20642,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "b16fd058-8842-413f-9d74-3638207a8530")
-		(property "Reference" "C24"
+		(property "Reference" "C3"
 			(at 378.46 56.388 0)
 			(effects
 				(font
@@ -20775,7 +20696,7 @@
 		(instances
 			(project "expander-hw"
 				(path "/a3663717-3320-48fd-b38c-5475886dd95b"
-					(reference "C24")
+					(reference "C3")
 					(unit 1)
 				)
 			)
@@ -20790,7 +20711,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "b7584a50-0895-4841-b2bd-1360532519d1")
-		(property "Reference" "R14"
+		(property "Reference" "R9"
 			(at 241.046 78.74 0)
 			(effects
 				(font
@@ -20844,7 +20765,7 @@
 		(instances
 			(project "expander-hw"
 				(path "/a3663717-3320-48fd-b38c-5475886dd95b"
-					(reference "R14")
+					(reference "R9")
 					(unit 1)
 				)
 			)
@@ -20860,7 +20781,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "b9d20348-5752-45ac-b3e9-d1982a244d1b")
-		(property "Reference" "U7"
+		(property "Reference" "U5"
 			(at 348.234 115.316 0)
 			(effects
 				(font
@@ -20930,7 +20851,7 @@
 		(instances
 			(project ""
 				(path "/a3663717-3320-48fd-b38c-5475886dd95b"
-					(reference "U7")
+					(reference "U5")
 					(unit 1)
 				)
 			)
@@ -20945,7 +20866,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "ba5a83c3-716b-491c-854d-b235653fa329")
-		(property "Reference" "U4"
+		(property "Reference" "U3"
 			(at 301.498 74.168 0)
 			(effects
 				(font
@@ -21023,7 +20944,7 @@
 		(instances
 			(project ""
 				(path "/a3663717-3320-48fd-b38c-5475886dd95b"
-					(reference "U4")
+					(reference "U3")
 					(unit 1)
 				)
 			)
@@ -21038,7 +20959,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "bac7ee94-a8da-49d1-bebd-0ab536177949")
-		(property "Reference" "J3"
+		(property "Reference" "J1"
 			(at 242.57 27.94 0)
 			(effects
 				(font
@@ -21121,7 +21042,7 @@
 		(instances
 			(project ""
 				(path "/a3663717-3320-48fd-b38c-5475886dd95b"
-					(reference "J3")
+					(reference "J1")
 					(unit 1)
 				)
 			)
@@ -21136,7 +21057,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "bcfb4bfb-b6aa-464f-b724-1dd56aa285b6")
-		(property "Reference" "#PWR033"
+		(property "Reference" "#PWR09"
 			(at 306.07 53.34 0)
 			(effects
 				(font
@@ -21186,7 +21107,7 @@
 		(instances
 			(project "expander-hw"
 				(path "/a3663717-3320-48fd-b38c-5475886dd95b"
-					(reference "#PWR033")
+					(reference "#PWR09")
 					(unit 1)
 				)
 			)
@@ -21270,7 +21191,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "bf75cb0f-1b86-492a-87bb-68cf2b8e44ae")
-		(property "Reference" "R24"
+		(property "Reference" "R20"
 			(at 318.516 123.444 90)
 			(effects
 				(font
@@ -21324,7 +21245,7 @@
 		(instances
 			(project "expander-hw"
 				(path "/a3663717-3320-48fd-b38c-5475886dd95b"
-					(reference "R24")
+					(reference "R20")
 					(unit 1)
 				)
 			)
@@ -21339,7 +21260,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "c0c73c35-91b8-4774-a0d7-4849d3cdb0f9")
-		(property "Reference" "#PWR037"
+		(property "Reference" "#PWR012"
 			(at 347.98 66.04 0)
 			(effects
 				(font
@@ -21389,7 +21310,7 @@
 		(instances
 			(project "expander-hw"
 				(path "/a3663717-3320-48fd-b38c-5475886dd95b"
-					(reference "#PWR037")
+					(reference "#PWR012")
 					(unit 1)
 				)
 			)
@@ -21404,7 +21325,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "c476b4dc-0272-4c50-b8d2-78395d688abd")
-		(property "Reference" "C17"
+		(property "Reference" "C14"
 			(at 113.03 187.198 0)
 			(effects
 				(font
@@ -21458,7 +21379,7 @@
 		(instances
 			(project "expander-hw"
 				(path "/a3663717-3320-48fd-b38c-5475886dd95b"
-					(reference "C17")
+					(reference "C14")
 					(unit 1)
 				)
 			)
@@ -21473,7 +21394,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "c541027d-8437-4be5-a898-f9c71fd5dbc4")
-		(property "Reference" "R32"
+		(property "Reference" "R12"
 			(at 339.852 83.058 90)
 			(effects
 				(font
@@ -21527,7 +21448,7 @@
 		(instances
 			(project "expander-hw"
 				(path "/a3663717-3320-48fd-b38c-5475886dd95b"
-					(reference "R32")
+					(reference "R12")
 					(unit 1)
 				)
 			)
@@ -21543,7 +21464,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "c9733059-74c6-4f70-806b-7bb11d47314b")
-		(property "Reference" "U6"
+		(property "Reference" "U2"
 			(at 349.25 71.628 0)
 			(effects
 				(font
@@ -21613,7 +21534,7 @@
 		(instances
 			(project ""
 				(path "/a3663717-3320-48fd-b38c-5475886dd95b"
-					(reference "U6")
+					(reference "U2")
 					(unit 1)
 				)
 			)
@@ -21628,7 +21549,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "cba58134-3c76-4893-a258-35d779f64c33")
-		(property "Reference" "#PWR022"
+		(property "Reference" "#PWR033"
 			(at 231.14 156.21 0)
 			(effects
 				(font
@@ -21678,7 +21599,7 @@
 		(instances
 			(project "expander-hw"
 				(path "/a3663717-3320-48fd-b38c-5475886dd95b"
-					(reference "#PWR022")
+					(reference "#PWR033")
 					(unit 1)
 				)
 			)
@@ -21693,7 +21614,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "cdea30b7-a853-4317-aef7-36382a5120fe")
-		(property "Reference" "R33"
+		(property "Reference" "R14"
 			(at 337.566 101.854 90)
 			(effects
 				(font
@@ -21747,7 +21668,7 @@
 		(instances
 			(project "expander-hw"
 				(path "/a3663717-3320-48fd-b38c-5475886dd95b"
-					(reference "R33")
+					(reference "R14")
 					(unit 1)
 				)
 			)
@@ -21763,7 +21684,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "cff09580-c6a6-4d97-a499-8c09c78af190")
-		(property "Reference" "U2"
+		(property "Reference" "U7"
 			(at 58.42 189.23 0)
 			(effects
 				(font
@@ -21884,7 +21805,7 @@
 		(instances
 			(project ""
 				(path "/a3663717-3320-48fd-b38c-5475886dd95b"
-					(reference "U2")
+					(reference "U7")
 					(unit 1)
 				)
 			)
@@ -21899,7 +21820,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "d156f609-3973-4c59-9e97-0a979f34fc25")
-		(property "Reference" "C5"
+		(property "Reference" "C9"
 			(at 62.23 152.908 0)
 			(effects
 				(font
@@ -21953,7 +21874,7 @@
 		(instances
 			(project "expander-hw"
 				(path "/a3663717-3320-48fd-b38c-5475886dd95b"
-					(reference "C5")
+					(reference "C9")
 					(unit 1)
 				)
 			)
@@ -21968,7 +21889,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "d5094f87-30fd-4f98-a3e5-aaafdbe7156f")
-		(property "Reference" "R7"
+		(property "Reference" "R29"
 			(at 108.458 188.214 0)
 			(effects
 				(font
@@ -22022,7 +21943,7 @@
 		(instances
 			(project "expander-hw"
 				(path "/a3663717-3320-48fd-b38c-5475886dd95b"
-					(reference "R7")
+					(reference "R29")
 					(unit 1)
 				)
 			)
@@ -22037,7 +21958,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "d852d397-9ad5-4e5f-b173-7522d9f83418")
-		(property "Reference" "#PWR025"
+		(property "Reference" "#PWR015"
 			(at 252.73 74.93 0)
 			(effects
 				(font
@@ -22087,7 +22008,7 @@
 		(instances
 			(project "expander-hw"
 				(path "/a3663717-3320-48fd-b38c-5475886dd95b"
-					(reference "#PWR025")
+					(reference "#PWR015")
 					(unit 1)
 				)
 			)
@@ -22102,7 +22023,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "da8c1e15-06ea-482e-9e75-5fdff454b271")
-		(property "Reference" "R35"
+		(property "Reference" "R24"
 			(at 337.566 131.064 90)
 			(effects
 				(font
@@ -22156,7 +22077,7 @@
 		(instances
 			(project "expander-hw"
 				(path "/a3663717-3320-48fd-b38c-5475886dd95b"
-					(reference "R35")
+					(reference "R24")
 					(unit 1)
 				)
 			)
@@ -22172,7 +22093,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "df59ce4d-7929-4b4e-ade6-b62a87ab81c1")
-		(property "Reference" "J1"
+		(property "Reference" "J4"
 			(at 30.48 72.39 0)
 			(effects
 				(font
@@ -22269,7 +22190,7 @@
 		(instances
 			(project "expander-hw"
 				(path "/a3663717-3320-48fd-b38c-5475886dd95b"
-					(reference "J1")
+					(reference "J4")
 					(unit 1)
 				)
 			)
@@ -22285,7 +22206,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e072558c-cca2-4cf2-853e-ff35d930cbba")
-		(property "Reference" "C6"
+		(property "Reference" "C2"
 			(at 71.12 49.5299 0)
 			(effects
 				(font
@@ -22339,7 +22260,7 @@
 		(instances
 			(project "expander-hw"
 				(path "/a3663717-3320-48fd-b38c-5475886dd95b"
-					(reference "C6")
+					(reference "C2")
 					(unit 1)
 				)
 			)
@@ -22354,7 +22275,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "e49c1595-ad60-4da4-b9c6-e3bb6f9b2103")
-		(property "Reference" "#PWR034"
+		(property "Reference" "#PWR022"
 			(at 317.5 110.49 0)
 			(effects
 				(font
@@ -22404,7 +22325,7 @@
 		(instances
 			(project "expander-hw"
 				(path "/a3663717-3320-48fd-b38c-5475886dd95b"
-					(reference "#PWR034")
+					(reference "#PWR022")
 					(unit 1)
 				)
 			)
@@ -22419,7 +22340,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "e5b5c1bd-1a65-49cc-8660-f49bcb763a28")
-		(property "Reference" "C10"
+		(property "Reference" "C25"
 			(at 78.74 229.108 0)
 			(effects
 				(font
@@ -22473,7 +22394,7 @@
 		(instances
 			(project "expander-hw"
 				(path "/a3663717-3320-48fd-b38c-5475886dd95b"
-					(reference "C10")
+					(reference "C25")
 					(unit 1)
 				)
 			)
@@ -22488,7 +22409,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "e72be07f-db17-40d4-8878-0343902f744d")
-		(property "Reference" "#PWR027"
+		(property "Reference" "#PWR06"
 			(at 260.35 33.02 0)
 			(effects
 				(font
@@ -22538,7 +22459,7 @@
 		(instances
 			(project "expander-hw"
 				(path "/a3663717-3320-48fd-b38c-5475886dd95b"
-					(reference "#PWR027")
+					(reference "#PWR06")
 					(unit 1)
 				)
 			)
@@ -22553,7 +22474,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "e72c0f41-5bfb-42ab-85c5-fd31f8e602bf")
-		(property "Reference" "R36"
+		(property "Reference" "R26"
 			(at 337.566 150.114 90)
 			(effects
 				(font
@@ -22607,7 +22528,7 @@
 		(instances
 			(project "expander-hw"
 				(path "/a3663717-3320-48fd-b38c-5475886dd95b"
-					(reference "R36")
+					(reference "R26")
 					(unit 1)
 				)
 			)
@@ -22622,7 +22543,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "ef2032c3-83bf-4f00-b467-ebc1c88f482c")
-		(property "Reference" "R28"
+		(property "Reference" "R23"
 			(at 319.786 131.064 90)
 			(effects
 				(font
@@ -22676,7 +22597,7 @@
 		(instances
 			(project "expander-hw"
 				(path "/a3663717-3320-48fd-b38c-5475886dd95b"
-					(reference "R28")
+					(reference "R23")
 					(unit 1)
 				)
 			)
@@ -22691,7 +22612,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "ef6acb75-8d0c-4a2d-91fc-05555a425f72")
-		(property "Reference" "#PWR015"
+		(property "Reference" "#PWR038"
 			(at 134.62 201.93 0)
 			(effects
 				(font
@@ -22741,7 +22662,7 @@
 		(instances
 			(project "expander-hw"
 				(path "/a3663717-3320-48fd-b38c-5475886dd95b"
-					(reference "#PWR015")
+					(reference "#PWR038")
 					(unit 1)
 				)
 			)
@@ -22757,7 +22678,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f48c25c1-575c-47e6-a76f-61f6ab534b79")
-		(property "Reference" "#PWR011"
+		(property "Reference" "#PWR027"
 			(at 96.52 129.54 0)
 			(effects
 				(font
@@ -22807,7 +22728,7 @@
 		(instances
 			(project "expander-hw"
 				(path "/a3663717-3320-48fd-b38c-5475886dd95b"
-					(reference "#PWR011")
+					(reference "#PWR027")
 					(unit 1)
 				)
 			)
@@ -22822,7 +22743,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "f6a4dee2-974b-450d-a3a0-4f394cdefa9f")
-		(property "Reference" "U5"
+		(property "Reference" "U1"
 			(at 308.102 29.718 0)
 			(effects
 				(font
@@ -22886,7 +22807,7 @@
 		(instances
 			(project ""
 				(path "/a3663717-3320-48fd-b38c-5475886dd95b"
-					(reference "U5")
+					(reference "U1")
 					(unit 1)
 				)
 			)
@@ -22901,7 +22822,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "f6ea82af-115a-4ae4-b993-086767758f08")
-		(property "Reference" "R11"
+		(property "Reference" "R17"
 			(at 236.22 109.22 0)
 			(effects
 				(font
@@ -22955,7 +22876,7 @@
 		(instances
 			(project "expander-hw"
 				(path "/a3663717-3320-48fd-b38c-5475886dd95b"
-					(reference "R11")
+					(reference "R17")
 					(unit 1)
 				)
 			)
@@ -22970,7 +22891,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "f7afcee1-b089-4016-852c-164ba57347c3")
-		(property "Reference" "#PWR05"
+		(property "Reference" "#PWR035"
 			(at 49.53 171.45 0)
 			(effects
 				(font
@@ -23020,7 +22941,7 @@
 		(instances
 			(project "expander-hw"
 				(path "/a3663717-3320-48fd-b38c-5475886dd95b"
-					(reference "#PWR05")
+					(reference "#PWR035")
 					(unit 1)
 				)
 			)
@@ -23035,7 +22956,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "fb012e93-e272-47a2-bfa3-fa2d68a866b0")
-		(property "Reference" "D1"
+		(property "Reference" "D2"
 			(at 58.42 181.356 0)
 			(effects
 				(font
@@ -23088,7 +23009,7 @@
 		(instances
 			(project ""
 				(path "/a3663717-3320-48fd-b38c-5475886dd95b"
-					(reference "D1")
+					(reference "D2")
 					(unit 1)
 				)
 			)
@@ -23103,7 +23024,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "fd0f71cb-4bb1-4a2d-bd57-4683c96f7fc0")
-		(property "Reference" "C8"
+		(property "Reference" "C24"
 			(at 71.12 229.108 0)
 			(effects
 				(font
@@ -23157,7 +23078,7 @@
 		(instances
 			(project "expander-hw"
 				(path "/a3663717-3320-48fd-b38c-5475886dd95b"
-					(reference "C8")
+					(reference "C24")
 					(unit 1)
 				)
 			)
@@ -23172,7 +23093,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "fe7b74ee-282d-4a8a-85e0-4b096004531c")
-		(property "Reference" "#PWR019"
+		(property "Reference" "#PWR03"
 			(at 224.79 33.02 0)
 			(effects
 				(font
@@ -23222,7 +23143,7 @@
 		(instances
 			(project "expander-hw"
 				(path "/a3663717-3320-48fd-b38c-5475886dd95b"
-					(reference "#PWR019")
+					(reference "#PWR03")
 					(unit 1)
 				)
 			)
